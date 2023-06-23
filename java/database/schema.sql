@@ -39,6 +39,7 @@ CREATE TABLE "groups" (
 	"end_date" TIMESTAMP NOT NULL,
 	"has_ended" BOOLEAN NOT NULL,
 	"location" character varying NOT NULL,
+	"invite_link" character varying,
 	CONSTRAINT "groups_pk" PRIMARY KEY ("group_id")
 ) WITH (
   OIDS=FALSE
